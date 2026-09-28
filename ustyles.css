@@ -4,12 +4,14 @@
     box-sizing: border-box;
 }
 
-head {
+body {
     font-family: Arial, sans-serif;
 }
 
-body {
-    font-family: Arial, sans-serif;
+main{
+    max-width: 70ch;
+    margin: 0 auto;
+    padding: 1rem;
 }
 
 .navigation ul {
@@ -17,6 +19,4 @@ body {
  gap: 1rem;
  flex-direction: column;
  list-style: none;
- margin: 0;
- padding: 0;
 }
